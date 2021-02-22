@@ -1,0 +1,2696 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0114.0916                               -->
+<workbook source-build='2020.4.1 (20204.21.0114.0916)' source-platform='win' version='18.1' xml:base='https://dub01.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='EDA-part1' path='/t/mesha4544/workbooks' revision='1.2' site='mesha4544' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Owid-covid-data-EDA' inline='true' name='federated.1l045hk0osin6h140kqe60hnuj9z' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Owid-covid-data-EDA' name='textscan.0h847yp16zvg3i11t57d40ov4ulj'>
+            <connection class='textscan' directory='D:/Final_project' filename='Owid-covid-data-EDA.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0h847yp16zvg3i11t57d40ov4ulj' name='Owid-covid-data-EDA.csv' table='[Owid-covid-data-EDA#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='iso_code' ordinal='0' />
+            <column datatype='string' name='continent' ordinal='1' />
+            <column datatype='string' name='location' ordinal='2' />
+            <column datatype='date' name='date' ordinal='3' />
+            <column datatype='real' name='total_cases' ordinal='4' />
+            <column datatype='real' name='new_cases' ordinal='5' />
+            <column datatype='real' name='new_cases_smoothed' ordinal='6' />
+            <column datatype='real' name='total_deaths' ordinal='7' />
+            <column datatype='real' name='new_deaths' ordinal='8' />
+            <column datatype='real' name='new_deaths_smoothed' ordinal='9' />
+            <column datatype='real' name='total_cases_per_million' ordinal='10' />
+            <column datatype='real' name='new_cases_per_million' ordinal='11' />
+            <column datatype='real' name='new_cases_smoothed_per_million' ordinal='12' />
+            <column datatype='real' name='total_deaths_per_million' ordinal='13' />
+            <column datatype='real' name='new_deaths_per_million' ordinal='14' />
+            <column datatype='real' name='new_deaths_smoothed_per_million' ordinal='15' />
+            <column datatype='real' name='icu_patients' ordinal='16' />
+            <column datatype='real' name='icu_patients_per_million' ordinal='17' />
+            <column datatype='real' name='hosp_patients' ordinal='18' />
+            <column datatype='real' name='hosp_patients_per_million' ordinal='19' />
+            <column datatype='real' name='new_tests' ordinal='20' />
+            <column datatype='real' name='total_tests' ordinal='21' />
+            <column datatype='real' name='total_tests_per_thousand' ordinal='22' />
+            <column datatype='real' name='new_tests_per_thousand' ordinal='23' />
+            <column datatype='real' name='new_tests_smoothed' ordinal='24' />
+            <column datatype='real' name='new_tests_smoothed_per_thousand' ordinal='25' />
+            <column datatype='real' name='total_vaccinations' ordinal='26' />
+            <column datatype='real' name='people_vaccinated' ordinal='27' />
+            <column datatype='real' name='people_fully_vaccinated' ordinal='28' />
+            <column datatype='real' name='new_vaccinations' ordinal='29' />
+            <column datatype='real' name='new_vaccinations_smoothed' ordinal='30' />
+            <column datatype='real' name='total_vaccinations_per_hundred' ordinal='31' />
+            <column datatype='real' name='people_vaccinated_per_hundred' ordinal='32' />
+            <column datatype='real' name='people_fully_vaccinated_per_hundred' ordinal='33' />
+            <column datatype='real' name='new_vaccinations_smoothed_per_million' ordinal='34' />
+            <column datatype='real' name='population' ordinal='35' />
+            <column datatype='real' name='population_density' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0h847yp16zvg3i11t57d40ov4ulj' name='Owid-covid-data-EDA.csv' table='[Owid-covid-data-EDA#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='iso_code' ordinal='0' />
+            <column datatype='string' name='continent' ordinal='1' />
+            <column datatype='string' name='location' ordinal='2' />
+            <column datatype='date' name='date' ordinal='3' />
+            <column datatype='real' name='total_cases' ordinal='4' />
+            <column datatype='real' name='new_cases' ordinal='5' />
+            <column datatype='real' name='new_cases_smoothed' ordinal='6' />
+            <column datatype='real' name='total_deaths' ordinal='7' />
+            <column datatype='real' name='new_deaths' ordinal='8' />
+            <column datatype='real' name='new_deaths_smoothed' ordinal='9' />
+            <column datatype='real' name='total_cases_per_million' ordinal='10' />
+            <column datatype='real' name='new_cases_per_million' ordinal='11' />
+            <column datatype='real' name='new_cases_smoothed_per_million' ordinal='12' />
+            <column datatype='real' name='total_deaths_per_million' ordinal='13' />
+            <column datatype='real' name='new_deaths_per_million' ordinal='14' />
+            <column datatype='real' name='new_deaths_smoothed_per_million' ordinal='15' />
+            <column datatype='real' name='icu_patients' ordinal='16' />
+            <column datatype='real' name='icu_patients_per_million' ordinal='17' />
+            <column datatype='real' name='hosp_patients' ordinal='18' />
+            <column datatype='real' name='hosp_patients_per_million' ordinal='19' />
+            <column datatype='real' name='new_tests' ordinal='20' />
+            <column datatype='real' name='total_tests' ordinal='21' />
+            <column datatype='real' name='total_tests_per_thousand' ordinal='22' />
+            <column datatype='real' name='new_tests_per_thousand' ordinal='23' />
+            <column datatype='real' name='new_tests_smoothed' ordinal='24' />
+            <column datatype='real' name='new_tests_smoothed_per_thousand' ordinal='25' />
+            <column datatype='real' name='total_vaccinations' ordinal='26' />
+            <column datatype='real' name='people_vaccinated' ordinal='27' />
+            <column datatype='real' name='people_fully_vaccinated' ordinal='28' />
+            <column datatype='real' name='new_vaccinations' ordinal='29' />
+            <column datatype='real' name='new_vaccinations_smoothed' ordinal='30' />
+            <column datatype='real' name='total_vaccinations_per_hundred' ordinal='31' />
+            <column datatype='real' name='people_vaccinated_per_hundred' ordinal='32' />
+            <column datatype='real' name='people_fully_vaccinated_per_hundred' ordinal='33' />
+            <column datatype='real' name='new_vaccinations_smoothed_per_million' ordinal='34' />
+            <column datatype='real' name='population' ordinal='35' />
+            <column datatype='real' name='population_density' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iso_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[iso_code]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>iso_code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>continent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[continent]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>continent</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_cases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_cases]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>total_cases</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_cases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_cases]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_cases</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_cases_smoothed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_cases_smoothed]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_cases_smoothed</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_deaths</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_deaths]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>total_deaths</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_deaths]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_deaths</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths_smoothed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_deaths_smoothed]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_deaths_smoothed</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_cases_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_cases_per_million]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>total_cases_per_million</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_cases_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_cases_per_million]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_cases_per_million</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_cases_smoothed_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_cases_smoothed_per_million]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_cases_smoothed_per_million</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_deaths_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_deaths_per_million]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>total_deaths_per_million</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_deaths_per_million]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_deaths_per_million</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths_smoothed_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_deaths_smoothed_per_million]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_deaths_smoothed_per_million</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>icu_patients</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[icu_patients]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>icu_patients</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>icu_patients_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[icu_patients_per_million]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>icu_patients_per_million</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hosp_patients</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hosp_patients]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>hosp_patients</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hosp_patients_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hosp_patients_per_million]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>hosp_patients_per_million</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_tests</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_tests]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_tests</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_tests</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_tests]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>total_tests</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_tests_per_thousand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_tests_per_thousand]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>total_tests_per_thousand</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_tests_per_thousand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_tests_per_thousand]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_tests_per_thousand</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_tests_smoothed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_tests_smoothed]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_tests_smoothed</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_tests_smoothed_per_thousand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_tests_smoothed_per_thousand]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_tests_smoothed_per_thousand</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_vaccinations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_vaccinations]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>total_vaccinations</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_vaccinated</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[people_vaccinated]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>people_vaccinated</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_fully_vaccinated</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[people_fully_vaccinated]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>people_fully_vaccinated</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_vaccinations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_vaccinations]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_vaccinations</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_vaccinations_smoothed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_vaccinations_smoothed]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_vaccinations_smoothed</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_vaccinations_per_hundred</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_vaccinations_per_hundred]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>total_vaccinations_per_hundred</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_vaccinated_per_hundred</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[people_vaccinated_per_hundred]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>people_vaccinated_per_hundred</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_fully_vaccinated_per_hundred</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[people_fully_vaccinated_per_hundred]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>people_fully_vaccinated_per_hundred</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_vaccinations_smoothed_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_vaccinations_smoothed_per_million]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>new_vaccinations_smoothed_per_million</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_density]</local-name>
+            <parent-name>[Owid-covid-data-EDA.csv]</parent-name>
+            <remote-alias>population_density</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Owid-covid-data-EDA.csv' datatype='table' name='[__tableau_internal_object_id__].[Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F]' role='measure' type='quantitative' />
+      <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Hosp Patients' datatype='real' name='[hosp_patients]' role='measure' type='quantitative' />
+      <column caption='Hosp Patients Per Million' datatype='real' name='[hosp_patients_per_million]' role='measure' type='quantitative' />
+      <column caption='Icu Patients' datatype='real' name='[icu_patients]' role='measure' type='quantitative' />
+      <column caption='Icu Patients Per Million' datatype='real' name='[icu_patients_per_million]' role='measure' type='quantitative' />
+      <column caption='Iso Code' datatype='string' name='[iso_code]' role='dimension' type='nominal' />
+      <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='New Cases' datatype='real' name='[new_cases]' role='measure' type='quantitative' />
+      <column caption='New Cases Per Million' datatype='real' name='[new_cases_per_million]' role='measure' type='quantitative' />
+      <column caption='New Cases Smoothed' datatype='real' name='[new_cases_smoothed]' role='measure' type='quantitative' />
+      <column caption='New Cases Smoothed Per Million' datatype='real' name='[new_cases_smoothed_per_million]' role='measure' type='quantitative' />
+      <column caption='New Deaths' datatype='real' name='[new_deaths]' role='measure' type='quantitative' />
+      <column caption='New Deaths Per Million' datatype='real' name='[new_deaths_per_million]' role='measure' type='quantitative' />
+      <column caption='New Deaths Smoothed' datatype='real' name='[new_deaths_smoothed]' role='measure' type='quantitative' />
+      <column caption='New Deaths Smoothed Per Million' datatype='real' name='[new_deaths_smoothed_per_million]' role='measure' type='quantitative' />
+      <column caption='New Tests' datatype='real' name='[new_tests]' role='measure' type='quantitative' />
+      <column caption='New Tests Per Thousand' datatype='real' name='[new_tests_per_thousand]' role='measure' type='quantitative' />
+      <column caption='New Tests Smoothed' datatype='real' name='[new_tests_smoothed]' role='measure' type='quantitative' />
+      <column caption='New Tests Smoothed Per Thousand' datatype='real' name='[new_tests_smoothed_per_thousand]' role='measure' type='quantitative' />
+      <column caption='New Vaccinations' datatype='real' name='[new_vaccinations]' role='measure' type='quantitative' />
+      <column caption='New Vaccinations Smoothed' datatype='real' name='[new_vaccinations_smoothed]' role='measure' type='quantitative' />
+      <column caption='New Vaccinations Smoothed Per Million' datatype='real' name='[new_vaccinations_smoothed_per_million]' role='measure' type='quantitative' />
+      <column caption='People Fully Vaccinated' datatype='real' name='[people_fully_vaccinated]' role='measure' type='quantitative' />
+      <column caption='People Fully Vaccinated Per Hundred' datatype='real' name='[people_fully_vaccinated_per_hundred]' role='measure' type='quantitative' />
+      <column caption='People Vaccinated' datatype='real' name='[people_vaccinated]' role='measure' type='quantitative' />
+      <column caption='People Vaccinated Per Hundred' datatype='real' name='[people_vaccinated_per_hundred]' role='measure' type='quantitative' />
+      <column caption='Population' datatype='real' name='[population]' role='measure' type='quantitative' />
+      <column caption='Population Density' datatype='real' name='[population_density]' role='measure' type='quantitative' />
+      <column caption='Total Cases' datatype='real' name='[total_cases]' role='measure' type='quantitative' />
+      <column caption='Total Cases Per Million' datatype='real' name='[total_cases_per_million]' role='measure' type='quantitative' />
+      <column caption='Total Deaths' datatype='real' name='[total_deaths]' role='measure' type='quantitative' />
+      <column caption='Total Deaths Per Million' datatype='real' name='[total_deaths_per_million]' role='measure' type='quantitative' />
+      <column caption='Total Tests' datatype='real' name='[total_tests]' role='measure' type='quantitative' />
+      <column caption='Total Tests Per Thousand' datatype='real' name='[total_tests_per_thousand]' role='measure' type='quantitative' />
+      <column caption='Total Vaccinations' datatype='real' name='[total_vaccinations]' role='measure' type='quantitative' />
+      <column caption='Total Vaccinations Per Hundred' datatype='real' name='[total_vaccinations_per_hundred]' role='measure' type='quantitative' />
+      <column-instance column='[people_fully_vaccinated]' derivation='Avg' name='[avg:people_fully_vaccinated:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[people_vaccinated]' derivation='Avg' name='[avg:people_vaccinated:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[total_cases]' derivation='Avg' name='[avg:total_cases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[total_cases]' derivation='Median' name='[med:total_cases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+      <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+      <column-instance column='[people_vaccinated]' derivation='Sum' name='[sum:people_vaccinated:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[total_cases]' derivation='Sum' name='[sum:total_cases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[total_deaths]' derivation='Sum' name='[sum:total_deaths:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Location)' hidden='true' name='[Action (Location)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[location]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:total_cases:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1l045hk0osin6h140kqe60hnuj9z].[med:total_cases:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1l045hk0osin6h140kqe60hnuj9z].[sum:total_cases:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:people_vaccinated:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1l045hk0osin6h140kqe60hnuj9z].[sum:people_vaccinated:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:people_fully_vaccinated:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1l045hk0osin6h140kqe60hnuj9z].[sum:total_deaths:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:location:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;North America&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Europe&quot;</bucket>
+            </map>
+            <map to='#59504e'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#59504e'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#5a514f'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#5b514f'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#5b5250'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#5c5351'>
+              <bucket>&quot;Vatican&quot;</bucket>
+            </map>
+            <map to='#5d5351'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#5d5452'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#5e5553'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#5f5553'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#5f5654'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#605654'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#615755'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#615856'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#625856'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#635957'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#635a58'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#645a58'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#655b59'>
+              <bucket>&quot;Timor&quot;</bucket>
+            </map>
+            <map to='#665c5a'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#665c5a'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#675d5b'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#675d5b'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#685e5c'>
+              <bucket>&quot;Syria&quot;</bucket>
+            </map>
+            <map to='#695f5d'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#695f5d'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#6a605e'>
+              <bucket>&quot;Suriname&quot;</bucket>
+            </map>
+            <map to='#6b615f'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#6b615f'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#6c6260'>
+              <bucket>&quot;South Sudan&quot;</bucket>
+            </map>
+            <map to='#6c6260'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#6d6361'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#6e6462'>
+              <bucket>&quot;Somalia&quot;</bucket>
+            </map>
+            <map to='#6e6462'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#6f6563'>
+              <bucket>&quot;Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#706664'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#706664'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#716765'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#726866'>
+              <bucket>&quot;Seychelles&quot;</bucket>
+            </map>
+            <map to='#726866'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#736967'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#736a68'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#746a68'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#756b69'>
+              <bucket>&quot;Sao Tome and Principe&quot;</bucket>
+            </map>
+            <map to='#756c6a'>
+              <bucket>&quot;San Marino&quot;</bucket>
+            </map>
+            <map to='#766d6a'>
+              <bucket>&quot;Samoa&quot;</bucket>
+            </map>
+            <map to='#776d6b'>
+              <bucket>&quot;Saint Vincent and the Grenadines&quot;</bucket>
+            </map>
+            <map to='#776e6c'>
+              <bucket>&quot;Saint Lucia&quot;</bucket>
+            </map>
+            <map to='#786f6c'>
+              <bucket>&quot;Saint Kitts and Nevis&quot;</bucket>
+            </map>
+            <map to='#78706d'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#7a716e'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#7a726f'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#7b7370'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#7c7370'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#7c7471'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#7d7572'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#7e7673'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#7e7673'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#7f7774'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#807774'>
+              <bucket>&quot;Palestine&quot;</bucket>
+            </map>
+            <map to='#807875'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#817976'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#827976'>
+              <bucket>&quot;Oceania&quot;</bucket>
+            </map>
+            <map to='#827a77'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#837b78'>
+              <bucket>&quot;North Macedonia&quot;</bucket>
+            </map>
+            <map to='#847b78'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#847c79'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#857c79'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#867d7a'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#867e7b'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Asia&quot;</bucket>
+            </map>
+            <map to='#877e7b'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#887f7c'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#88807d'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#89807d'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#8a817e'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#8b827f'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#8b827f'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#8c8380'>
+              <bucket>&quot;Monaco&quot;</bucket>
+            </map>
+            <map to='#8d8481'>
+              <bucket>&quot;Micronesia (country)&quot;</bucket>
+            </map>
+            <map to='#8d8481'>
+              <bucket>&quot;Moldova&quot;</bucket>
+            </map>
+            <map to='#8e8582'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#8f8683'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#8f8783'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#908784'>
+              <bucket>&quot;Marshall Islands&quot;</bucket>
+            </map>
+            <map to='#918885'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#918985'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#928a86'>
+              <bucket>&quot;Maldives&quot;</bucket>
+            </map>
+            <map to='#938a87'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#938b87'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#948c88'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#958d89'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#958d89'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#968e8a'>
+              <bucket>&quot;Liechtenstein&quot;</bucket>
+            </map>
+            <map to='#978f8b'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#98908c'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#98908c'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#99918d'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#9a918e'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#9a928e'>
+              <bucket>&quot;Laos&quot;</bucket>
+            </map>
+            <map to='#9b938f'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#9c9390'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#9c9490'>
+              <bucket>&quot;Kosovo&quot;</bucket>
+            </map>
+            <map to='#9d9591'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#9e9592'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#9e9692'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#9f9693'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#a09794'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#a09894'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Africa&quot;</bucket>
+            </map>
+            <map to='#a19895'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#a29996'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#a29a96'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#a39a97'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#a49b98'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#a59c99'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#a59c99'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#a69d9a'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#a79e9b'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#a79e9b'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#a89f9c'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#a9a09d'>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+            </map>
+            <map to='#aaa19e'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#aaa19e'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#aba29f'>
+              <bucket>&quot;Grenada&quot;</bucket>
+            </map>
+            <map to='#aca3a0'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#ada4a1'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#ada4a1'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#aea5a2'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#afa6a3'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#b0a7a4'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#b0a7a4'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#b1a8a5'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#b2a9a6'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#b3aaa7'>
+              <bucket>&quot;Eswatini&quot;</bucket>
+            </map>
+            <map to='#b3aaa7'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#b4aba8'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#b5aca9'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#b5aca9'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#b6adaa'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#b7aeab'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#b7afab'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#b8afac'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#b9b0ad'>
+              <bucket>&quot;Dominica&quot;</bucket>
+            </map>
+            <map to='#b9b1ad'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#bab2ae'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#bbb2af'>
+              <bucket>&quot;Democratic Republic of Congo&quot;</bucket>
+            </map>
+            <map to='#bbb3af'>
+              <bucket>&quot;Czechia&quot;</bucket>
+            </map>
+            <map to='#bcb4b0'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#bdb5b1'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#bdb5b1'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#beb6b2'>
+              <bucket>&quot;Cote d&apos;Ivoire&quot;</bucket>
+            </map>
+            <map to='#bfb7b3'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#c0b8b4'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#c0b8b4'>
+              <bucket>&quot;Congo&quot;</bucket>
+            </map>
+            <map to='#c1b9b5'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#c2bab6'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#c2bab6'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#c3bbb7'>
+              <bucket>&quot;Chad&quot;</bucket>
+            </map>
+            <map to='#c4bcb8'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#c5bcb8'>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+            </map>
+            <map to='#c5bdb9'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#c6beba'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#c7beba'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#c8bfbb'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#c8c0bc'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#c9c0bc'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#cac1bd'>
+              <bucket>&quot;Brunei&quot;</bucket>
+            </map>
+            <map to='#cbc2be'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#cbc2be'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#ccc3bf'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#cdc4c0'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#cec5c1'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#cec5c1'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#cfc6c2'>
+              <bucket>&quot;Belize&quot;</bucket>
+            </map>
+            <map to='#d0c7c3'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#d0c8c4'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#d1c8c4'>
+              <bucket>&quot;Barbados&quot;</bucket>
+            </map>
+            <map to='#d2c9c5'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#d3cac6'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#d3cbc7'>
+              <bucket>&quot;Bahamas&quot;</bucket>
+            </map>
+            <map to='#d4ccc8'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#d5ccc8'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#d6cdc9'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#d6ceca'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#d7cfcb'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#d8d0cc'>
+              <bucket>&quot;Antigua and Barbuda&quot;</bucket>
+            </map>
+            <map to='#d9d0cc'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#d9d1cd'>
+              <bucket>&quot;Andorra&quot;</bucket>
+            </map>
+            <map to='#dad2ce'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#dcd4d0'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;South America&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:continent:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;_&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;North America&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Europe&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;South America&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Asia&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Oceania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Africa&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Saudi Arabia&quot;' />
+      </semantic-values>
+      <filter class='categorical' column='[location]' filter-group='2'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[location]' />
+          <groupfilter function='union'>
+            <groupfilter function='member' level='[location]' member='&quot;Africa&quot;' />
+            <groupfilter function='member' level='[location]' member='&quot;Asia&quot;' />
+            <groupfilter function='member' level='[location]' member='&quot;Europe&quot;' />
+            <groupfilter function='member' level='[location]' member='&quot;International&quot;' />
+            <groupfilter function='member' level='[location]' member='&quot;North America&quot;' />
+            <groupfilter function='member' level='[location]' member='&quot;South America&quot;' />
+            <groupfilter function='member' level='[location]' member='&quot;World&quot;' />
+          </groupfilter>
+        </groupfilter>
+      </filter>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Owid-covid-data-EDA.csv' id='Owid-covid-data-EDA.csv_0AB07EB01CCF4613B43FAB7FC021DA8F'>
+            <properties context=''>
+              <relation connection='textscan.0h847yp16zvg3i11t57d40ov4ulj' name='Owid-covid-data-EDA.csv' table='[Owid-covid-data-EDA#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='iso_code' ordinal='0' />
+                  <column datatype='string' name='continent' ordinal='1' />
+                  <column datatype='string' name='location' ordinal='2' />
+                  <column datatype='date' name='date' ordinal='3' />
+                  <column datatype='real' name='total_cases' ordinal='4' />
+                  <column datatype='real' name='new_cases' ordinal='5' />
+                  <column datatype='real' name='new_cases_smoothed' ordinal='6' />
+                  <column datatype='real' name='total_deaths' ordinal='7' />
+                  <column datatype='real' name='new_deaths' ordinal='8' />
+                  <column datatype='real' name='new_deaths_smoothed' ordinal='9' />
+                  <column datatype='real' name='total_cases_per_million' ordinal='10' />
+                  <column datatype='real' name='new_cases_per_million' ordinal='11' />
+                  <column datatype='real' name='new_cases_smoothed_per_million' ordinal='12' />
+                  <column datatype='real' name='total_deaths_per_million' ordinal='13' />
+                  <column datatype='real' name='new_deaths_per_million' ordinal='14' />
+                  <column datatype='real' name='new_deaths_smoothed_per_million' ordinal='15' />
+                  <column datatype='real' name='icu_patients' ordinal='16' />
+                  <column datatype='real' name='icu_patients_per_million' ordinal='17' />
+                  <column datatype='real' name='hosp_patients' ordinal='18' />
+                  <column datatype='real' name='hosp_patients_per_million' ordinal='19' />
+                  <column datatype='real' name='new_tests' ordinal='20' />
+                  <column datatype='real' name='total_tests' ordinal='21' />
+                  <column datatype='real' name='total_tests_per_thousand' ordinal='22' />
+                  <column datatype='real' name='new_tests_per_thousand' ordinal='23' />
+                  <column datatype='real' name='new_tests_smoothed' ordinal='24' />
+                  <column datatype='real' name='new_tests_smoothed_per_thousand' ordinal='25' />
+                  <column datatype='real' name='total_vaccinations' ordinal='26' />
+                  <column datatype='real' name='people_vaccinated' ordinal='27' />
+                  <column datatype='real' name='people_fully_vaccinated' ordinal='28' />
+                  <column datatype='real' name='new_vaccinations' ordinal='29' />
+                  <column datatype='real' name='new_vaccinations_smoothed' ordinal='30' />
+                  <column datatype='real' name='total_vaccinations_per_hundred' ordinal='31' />
+                  <column datatype='real' name='people_vaccinated_per_hundred' ordinal='32' />
+                  <column datatype='real' name='people_fully_vaccinated_per_hundred' ordinal='33' />
+                  <column datatype='real' name='new_vaccinations_smoothed_per_million' ordinal='34' />
+                  <column datatype='real' name='population' ordinal='35' />
+                  <column datatype='real' name='population_density' ordinal='36' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{09BE2997-9388-40EC-96E5-9B188FCC8E52}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+            <column-instance column='[total_cases]' derivation='Sum' name='[sum:total_cases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_deaths]' derivation='Sum' name='[sum:total_deaths:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Cases' datatype='real' name='[total_cases]' role='measure' type='quantitative' />
+            <column caption='Total Deaths' datatype='real' name='[total_deaths]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1l045hk0osin6h140kqe60hnuj9z].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l045hk0osin6h140kqe60hnuj9z].[sum:total_cases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1l045hk0osin6h140kqe60hnuj9z].[sum:total_deaths:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1l045hk0osin6h140kqe60hnuj9z].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1l045hk0osin6h140kqe60hnuj9z].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[Multiple Values]</rows>
+        <cols>([federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk] / [federated.1l045hk0osin6h140kqe60hnuj9z].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{A2EF5691-7317-4601-8736-717F6AF0C858}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[total_cases]' derivation='Avg' name='[avg:total_cases:qk]' pivot='key' type='quantitative' />
+            <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column-instance column='[population]' derivation='Median' name='[med:population:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[population_density]' derivation='Median' name='[med:population_density:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+            <column caption='Population' datatype='real' name='[population]' role='measure' type='quantitative' />
+            <column caption='Population Density' datatype='real' name='[population_density]' role='measure' type='quantitative' />
+            <column caption='Total Cases' datatype='real' name='[total_cases]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1l045hk0osin6h140kqe60hnuj9z].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1l045hk0osin6h140kqe60hnuj9z].[Longitude (generated)]' included-values='non-null' />
+          <filter class='categorical' column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' filter-group='3'>
+            <groupfilter function='member' level='[none:location:nk]' member='&quot;Saudi Arabia&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]</column>
+            <column>[federated.1l045hk0osin6h140kqe60hnuj9z].[Latitude (generated)]</column>
+            <column>[federated.1l045hk0osin6h140kqe60hnuj9z].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+            <format attr='border-color' value='#737373' />
+            <format attr='background-color' value='#00000000' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='color' value='#737373' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:total_cases:qk]' />
+              <lod column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' />
+              <tooltip column='[federated.1l045hk0osin6h140kqe60hnuj9z].[med:population:qk]' />
+              <tooltip column='[federated.1l045hk0osin6h140kqe60hnuj9z].[med:population_density:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#e15759' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[Latitude (generated)]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{D5063B1A-FA1A-4A8D-BCE8-32261CD84B61}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[new_cases]' derivation='Avg' name='[avg:new_cases:qk]' pivot='key' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='MY' name='[my:date:ok]' pivot='key' type='ordinal' />
+            <column caption='New Cases' datatype='real' name='[new_cases]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:new_cases:qk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[my:date:ok]</cols>
+      </table>
+      <simple-id uuid='{D64B8CDB-2E9F-4846-9519-AED82892E234}' />
+    </worksheet>
+    <worksheet name='Sheet 4 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[new_cases]' derivation='Avg' name='[avg:new_cases:qk]' pivot='key' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column-instance column='[date]' derivation='MY' name='[my:date:ok]' pivot='key' type='ordinal' />
+            <column caption='New Cases' datatype='real' name='[new_cases]' role='measure' type='quantitative' />
+            <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1l045hk0osin6h140kqe60hnuj9z].[Action (Location)]'>
+            <groupfilter function='level-members' level='[location]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' filter-group='3'>
+            <groupfilter function='member' level='[none:location:nk]' member='&quot;Saudi Arabia&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1l045hk0osin6h140kqe60hnuj9z].[Action (Location)]</column>
+            <column>[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:new_cases:qk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[my:date:ok]</cols>
+      </table>
+      <simple-id uuid='{1F3C4DB9-3A3F-469A-8444-AFE7AAC3919A}' />
+    </worksheet>
+    <worksheet name='Sheet 4 (3)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[new_cases]' derivation='Avg' name='[avg:new_cases:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='MY' name='[my:date:ok]' pivot='key' type='ordinal' />
+            <column caption='New Cases' datatype='real' name='[new_cases]' role='measure' type='quantitative' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1l045hk0osin6h140kqe60hnuj9z].[my:date:ok]' value='51' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+              <text column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:new_cases:qk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[my:date:ok]</cols>
+      </table>
+      <simple-id uuid='{54E61BFC-6B4B-41D4-B466-A40D578D0319}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[hosp_patients]' derivation='Avg' name='[avg:hosp_patients:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='Hosp Patients' datatype='real' name='[hosp_patients]' role='measure' type='quantitative' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+              <wedge-size column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:hosp_patients:qk]' />
+              <size column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:hosp_patients:qk]' />
+              <text column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+              <text column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:hosp_patients:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B9D117F3-ACE2-4258-B245-217DCEC1F6A4}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (10)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[people_vaccinated]' derivation='Avg' name='[avg:people_vaccinated:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+            <column caption='People Vaccinated' datatype='real' name='[people_vaccinated]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:people_vaccinated:qk]</cols>
+      </table>
+      <simple-id uuid='{8E36052A-3E0C-4ED2-98B5-82AA7CE1E14D}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (11)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+            <column-instance column='[total_vaccinations]' derivation='Sum' name='[sum:total_vaccinations:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Vaccinations' datatype='real' name='[total_vaccinations]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1l045hk0osin6h140kqe60hnuj9z].[sum:total_vaccinations:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[sum:total_vaccinations:qk]</cols>
+      </table>
+      <simple-id uuid='{514B7A1D-C3BE-4234-9977-22A3052FEBD9}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[hosp_patients_per_million]' derivation='Avg' name='[avg:hosp_patients_per_million:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='Hosp Patients Per Million' datatype='real' name='[hosp_patients_per_million]' role='measure' type='quantitative' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+              <wedge-size column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:hosp_patients_per_million:qk]' />
+              <text column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{20AF5C08-CF9B-4774-9AAF-719CE0814D18}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (3)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[hosp_patients]' derivation='Avg' name='[avg:hosp_patients:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='Hosp Patients' datatype='real' name='[hosp_patients]' role='measure' type='quantitative' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' direction='DESC' using='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:hosp_patients:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:hosp_patients:qk]</cols>
+      </table>
+      <simple-id uuid='{28B829E9-226D-43E5-8653-B716AC276A79}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (4)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[hosp_patients_per_million]' derivation='Avg' name='[avg:hosp_patients_per_million:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='Hosp Patients Per Million' datatype='real' name='[hosp_patients_per_million]' role='measure' type='quantitative' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' direction='DESC' using='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:hosp_patients_per_million:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:hosp_patients_per_million:qk]</cols>
+      </table>
+      <simple-id uuid='{979B3BCD-6757-485F-9D12-A9458F087CEC}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (5)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[icu_patients]' derivation='Avg' name='[avg:icu_patients:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='Icu Patients' datatype='real' name='[icu_patients]' role='measure' type='quantitative' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+              <wedge-size column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:icu_patients:qk]' />
+              <text column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+              <text column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:icu_patients:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3EC10AAE-2091-453D-9B66-839AE760DB1D}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (6)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[new_deaths]' derivation='Avg' name='[avg:new_deaths:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='New Deaths' datatype='real' name='[new_deaths]' role='measure' type='quantitative' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+              <wedge-size column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:new_deaths:qk]' />
+              <text column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' />
+              <text column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:new_deaths:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7FA01809-09D2-4593-AAD7-02BF2AA06DF8}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (7)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[new_deaths]' derivation='Avg' name='[avg:new_deaths:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='New Deaths' datatype='real' name='[new_deaths]' role='measure' type='quantitative' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' direction='DESC' using='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:new_deaths:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:new_deaths:qk]</cols>
+      </table>
+      <simple-id uuid='{5EF8D64F-246C-4267-AE7B-C1DF097AD8C0}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (8)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[new_deaths]' derivation='Avg' name='[avg:new_deaths:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[new_tests]' derivation='Avg' name='[avg:new_tests:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='New Deaths' datatype='real' name='[new_deaths]' role='measure' type='quantitative' />
+            <column caption='New Tests' datatype='real' name='[new_tests]' role='measure' type='quantitative' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' direction='DESC' using='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:new_deaths:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:new_tests:qk]</cols>
+      </table>
+      <simple-id uuid='{2905508D-5CEC-4A41-8F28-C6803A2B5478}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (9)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+            <column-instance column='[people_fully_vaccinated]' derivation='Avg' name='[avg:people_fully_vaccinated:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[people_vaccinated]' derivation='Avg' name='[avg:people_vaccinated:qk]' pivot='key' type='quantitative' />
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+            <column caption='People Fully Vaccinated' datatype='real' name='[people_fully_vaccinated]' role='measure' type='quantitative' />
+            <column caption='People Vaccinated' datatype='real' name='[people_vaccinated]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:people_vaccinated:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]</rows>
+        <cols>[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:people_fully_vaccinated:qk]</cols>
+      </table>
+      <simple-id uuid='{6CA581A3-C652-4484-AEFD-A29B55FFD339}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A0B465E1-AAFF-4070-9C25-58F070FCB611}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#737373' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Owid-covid-data-EDA' name='federated.1l045hk0osin6h140kqe60hnuj9z' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1l045hk0osin6h140kqe60hnuj9z'>
+        <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+        <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='85012' id='24' param='horz' w='98614' x='693' y='13637'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='85012' id='22' param='horz' w='98614' x='693' y='13637'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='85012' id='20' param='horz' w='98614' x='693' y='13637'>
+                <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='85012' id='15' param='horz' w='98614' x='693' y='13637'>
+                  <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='85012' id='13' w='98614' x='693' y='13637'>
+                    <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='34482' id='7' param='horz' w='98614' x='693' y='64167'>
+                      <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='34482' id='5' w='98614' x='693' y='64167'>
+                        <zone h='34482' id='11' name='Sheet 4 (2)' show-title='false' w='98614' x='693' y='64167'>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                          </zone-style>
+                        </zone>
+                      </zone>
+                    </zone>
+                    <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='42692' id='17' param='vert' w='98614' x='693' y='13637'>
+                      <zone h='42692' id='18' name='Sheet 3' show-title='false' w='98614' x='693' y='13637'>
+                        <layout-cache minheight='201' type-h='scalable' type-w='fixed' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                    <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='2854' id='26' param='vert' w='98614' x='693' y='56329' />
+                    <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='4984' id='30' w='98614' x='693' y='59183'>
+                      <formatted-text>
+                        <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='16'>New Cases Distribution by Months</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='4343' id='27' w='98614' x='693' y='1351'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='20' underline='true'>(COVID-19)New Cases </run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='3971' id='28' w='98614' x='693' y='9666'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='16'>New Cases Per Country</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='3972' id='29' param='vert' w='98614' x='693' y='5694' />
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='4561' id='25' mode='dropdown' name='Sheet 3' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' show-title='false' values='database' w='12900' x='2511' y='16216' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='44' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97298' id='43' param='vert' w='98614' x='693' y='1351'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='4343' id='27' w='98614' x='693' y='1351'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='20' underline='true'>(COVID-19)New Cases </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='3971' id='28' w='98614' x='693' y='9666'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='16'>New Cases Per Country</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='4561' id='25' mode='dropdown' name='Sheet 3' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' show-title='false' values='database' w='12900' x='2511' y='16216'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42692' id='18' is-fixed='true' name='Sheet 3' show-title='false' w='98614' x='693' y='13637'>
+                  <layout-cache minheight='201' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='4984' id='30' w='98614' x='693' y='59183'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Times New Roman' fontsize='16'>New Cases Distribution by Months</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='268' h='34482' id='11' is-fixed='true' name='Sheet 4 (2)' show-title='false' w='98614' x='693' y='64167'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B1B66375-F9AC-4353-A41D-F4C7A7FB2746}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DBADB198-CC43-44C5-845B-A4445E7D1B58}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{886FA592-638B-4825-9145-EAD4F01596DF}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:total_cases:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0CB16497-F867-48EE-9ACC-72EED442EA45}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{80A9E176-C041-43C4-8544-8985697D1FF9}' />
+    </window>
+    <window class='worksheet' name='Sheet 4 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:location:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{50BCC547-D8FD-402E-92CD-C6D7CA5E98EA}' />
+    </window>
+    <window class='worksheet' name='Sheet 4 (3)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5AC8B888-F336-4AEA-87E5-E82FB7F33867}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[avg:hosp_patients:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{40F69E5F-283C-483E-89FA-AF568456866C}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (3)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{400E3FFC-B37D-4666-9D4E-19234B5A2422}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{C33AF3C7-9CA7-4D3F-81E4-257319A6F76F}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (4)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F14CAC52-8203-409C-891F-C82225262441}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (5)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{119D85D8-AFA6-4A06-B66D-D65F65C52F3E}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (6)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[none:continent:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{449BD644-E989-4D67-B01D-3EA16937A263}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (7)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B305FCE3-D831-464E-9629-AE49ACEB95FC}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (8)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{10AEB5AF-7AE6-4566-97A8-D32E6E911056}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (9)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5E7A0A53-E6B9-4677-81B4-F60ED0998096}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (10)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4D75DDBF-200F-41CC-97B8-C59690281A9C}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (11)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1l045hk0osin6h140kqe60hnuj9z].[sum:total_vaccinations:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{267653C7-4D24-4908-B372-51EC185A9730}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D2757726-FA66-4403-B268-C9348B19F211}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='25' />
+      <simple-id uuid='{62DF44E8-49EB-46A0-B09A-5344D3D4DAFF}' />
+    </window>
+  </windows>
+</workbook>
