@@ -138,12 +138,28 @@ As seen can see the prediction line (deep blue line) is  close to the data point
 
 - As seen in trend it appears that the number of new cases of covid-19 was less than 0 at the start then it started to come up then  start to slowly decrease  and return to less than 0
 - As seen in” weekly it appears that the number of cases is highest is on Friday and Monday 
+- 
+***
 
+### Comparing performance between Baseline Model and Facebook prophet Model
+- using mean absolute error
+- 
+ #### International dataset 
+ - Baseline Model: 8.011111111111111
+ - Facebook Prophet:2.430505
+ - 
+#### World dataset 
+ - Baseline Model: 487182.5
+ - Facebook Prophet: 297002.705972
+ - 
+#### Saudi dataset 
+ - Baseline Model: 804.3555555555556
+ - Facebook Prophet: 2235.389194
+ - 
+### Conclosign 
 
-The model  score better the baseline 
-
-
-
+- Facebook prophet Model is more accurate than the Baseline Model 
+- Facebook prophet has more functions that make handling time series easier and accurate
  
     
 
