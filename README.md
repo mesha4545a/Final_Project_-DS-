@@ -42,7 +42,7 @@
 #### Phase 2: Exploratory Data Analysis 
 - This phase is done by Jupiter lab and tableau simulations
   - [EDA part](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/EDA/EDA.md)
-  - [Tableau part](https://dub01.online.tableau.com/#/site/mesha4544/workbooks/560653/views)
+  - [Tableau part](https://dub01.online.tableau.com/#/site/mesha4544/workbooks/560653?:origin=card_share_links)
 - **insight:**
   -  There columns that contain null values that should  be dropped 
   -  Europe data were represented as” Europe” and “Europe Union”
@@ -53,7 +53,7 @@
   
 **This Phase resulted in:**
 - **a new dataset that has no Null Value named [EDA.csv](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/EDA.csv)**
-- **tableau dashboard [here](https://dub01.online.tableau.com/#/site/mesha4544/views/EDA/Dashboard1)**
+- **tableau dashboard [here](https://dub01.online.tableau.com/t/mesha4544/views/EDA/Dashboard1?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link)**
 
 
 #### Phase 3: [Forecasting Covied-19 new_cases:](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/ML_Final/ML_Final.md)
