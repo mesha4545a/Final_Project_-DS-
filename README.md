@@ -24,7 +24,17 @@
    
 ---
 
-### Project Workflow:
+## Project Workflow:
+###There are 3 phases the Project got through:
+#### Filling the Null Values 
+- All the columns had null values except "date" and "total_cases" 
+- Techniques used to fill the Null Values :
+  - Fill the columns based on other columns like the "iso_code" & "continen"t columns  based on what in the "location" column
+  - Dropped rows that duplicated or the "new_cases" for the "location"column was Null like Hong Kong
+  - Use LinearRegression Model to fill columns like "new_deaths_smoothe"
+  
+**This Phase outed new dataseat had fewer null values named “Owid-covid-data-filled.csv”**
+
 
 
 
