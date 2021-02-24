@@ -102,7 +102,11 @@ By plotting the forecast you can evaluate how is the model dowing
 
 
 
+As seen can see the prediction line (deep blue line) is  close to the data points which is good that means that the model is predicting accurately to some extent 
+
+
 The model  score better the baseline 
+
 
 
  
