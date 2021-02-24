@@ -11,16 +11,16 @@
   
 #### Tools & Packages used in the Project:
 - **Tools** 
- - Python 3.8
- - Jupyter Lab
- - Tableau
+  - Python 3.8
+  - Jupyter Lab
+  - Tableau
 - **Packages:**
- - Pandas 
- - Matplotlib
- - Seaborn
- - Datetime
- - Sklearn
- - Fbprophet
+  - Pandas 
+  - Matplotlib
+  - Seaborn
+  - Datetime
+  - Sklearn
+  - Fbprophet
    
 ---
 
