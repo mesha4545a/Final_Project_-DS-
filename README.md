@@ -25,8 +25,6 @@
  - Datetime
  - Sklearn
  - Fbprophet
-   
----
 
 ## Project Workflow:
 ### The Project has 3 Phases:
