@@ -52,6 +52,18 @@
 **This Phase resulted in:**
 - **a new dataset that has no Null Value named [EDA.csv](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/EDA.csv)**
 - **tableau dashboard [here](https://dub01.online.tableau.com/#/site/mesha4544/views/EDA/Dashboard1)**
+- 
+
+#### Phase 3: [Forecasting Covied-19 new_cases:](https://github.com/mesha4545a/Final_Project_-DS-/tree/main/ML_Final)
+- In this Phase, applied  Baseline Model & Facebook Prophet Model
+- The  baseline model approach is most recent day reflect the future 
+
+  **Some Difficulty:**
+The idea was to use the entire dataset and apply the facebook prophet model to every country 
+But due to some technical difficulty(my laptop was close to crash), the idea changed to  apply the model on 
+"International", "world" and "Saudi Arabia" locations
+**Result:**
+The model  score better the baseline 
 
 
  
