@@ -39,8 +39,10 @@
 **This Phase resulted in a new dataset that has fewer Null values named [“Owid-covid-data-filled.csv”](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/Owid-covid-data-filled.csv)**
 
 
-#### Phase 2: Exploratory Data Analysis [(EDA)](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/EDA/EDA.md)
+#### Phase 2: Exploratory Data Analysis 
 - This phase is done by Jupiter lab and tableau simulations
+- [EDA part](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/EDA/EDA.md)
+- [Tableau part](https://dub01.online.tableau.com/#/site/mesha4544/workbooks/560653/views)
 - **insight:**
   -  There columns that contain null values that should  be dropped 
   -  Europe data were represented as” Europe” and “Europe Union”
