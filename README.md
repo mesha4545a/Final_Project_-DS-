@@ -163,7 +163,7 @@ As seen can see the prediction line (deep blue line) is  close to the data point
  - Baseline Model: 804.3555555555556
  - Facebook Prophet: 2235.389194
  
-#### Conclosign 
+#### Conclusion 
 
 - Facebook prophet Model is more accurate than the Baseline Model 
 - Facebook prophet has more functions that make handling time series easier and accurate
