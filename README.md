@@ -79,6 +79,25 @@ that as you will see result in a fixed model
 ![output_28_0](https://user-images.githubusercontent.com/48656800/109050304-4a8b4c80-76ea-11eb-9420-02925b74102d.png)
 
 
+#### Facebook's Prophet Model:
+By plotting the forecast you can evaluate how is the model dowing 
+- The black dots: represrnt the actual data point in the data set 
+- The deep blue line: represents the prediction 
+- The light blue represents: the boundary of our prediction
+
+#### Forecast Plots:
+
+
+![output_46_0](https://user-images.githubusercontent.com/48656800/109053492-d05cc700-76ed-11eb-9bca-3df0035a781b.png)
+
+
+
+![output_57_0](https://user-images.githubusercontent.com/48656800/109053543-dfdc1000-76ed-11eb-85e7-d7697d33d756.png)
+
+
+
+![output_68_0](https://user-images.githubusercontent.com/48656800/109053622-f6826700-76ed-11eb-8047-095549df75fc.png)
+
 
 
 The model  score better the baseline 
