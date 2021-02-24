@@ -1,3 +1,5 @@
+## Forecasting Covid-19 Cases
+
 ### Import the Dataset
 
 
@@ -244,7 +246,7 @@ plt.xlabel('', fontsize=18); #set x axis size
 
 
     
-![png](output_12_0.png)
+![png](output_13_0.png)
     
 
 
@@ -258,7 +260,7 @@ plt.xlabel('', fontsize=18); #set x axis size
 
 
     
-![png](output_13_0.png)
+![png](output_14_0.png)
     
 
 
@@ -272,7 +274,7 @@ plt.xlabel('', fontsize=18); #set x axis size
 
 
     
-![png](output_14_0.png)
+![png](output_15_0.png)
     
 
 
@@ -531,7 +533,7 @@ plt.xlabel('ds', fontsize=18);#set x axis name and size
 
 
     
-![png](output_25_0.png)
+![png](output_26_0.png)
     
 
 
@@ -546,7 +548,7 @@ plt.xlabel('ds', fontsize=18);#set x axis name and size
 
 
     
-![png](output_26_0.png)
+![png](output_27_0.png)
     
 
 
@@ -561,7 +563,7 @@ plt.xlabel('ds', fontsize=18);#set x axis name and size
 
 
     
-![png](output_27_0.png)
+![png](output_28_0.png)
     
 
 
@@ -1050,7 +1052,7 @@ plt.xlabel('ds', fontsize=18);#set x axis name and size
 
 
     
-![png](output_45_0.png)
+![png](output_46_0.png)
     
 
 
@@ -1067,7 +1069,7 @@ m.plot_components(forecast_Int);#plot
 
 
     
-![png](output_48_0.png)
+![png](output_49_0.png)
     
 
 
@@ -1500,7 +1502,7 @@ plt.xlabel('ds', fontsize=18);#set x axis name and size
 
 
     
-![png](output_56_0.png)
+![png](output_57_0.png)
     
 
 
@@ -1518,7 +1520,7 @@ m1.plot_components(forecast_W); #plot
 
 
     
-![png](output_59_0.png)
+![png](output_60_0.png)
     
 
 
@@ -1951,7 +1953,7 @@ plt.xlabel('ds', fontsize=18);#set x axis name and size
 
 
     
-![png](output_67_0.png)
+![png](output_68_0.png)
     
 
 
@@ -1969,7 +1971,7 @@ m2.plot_components(forecast_S); #plot
 
 
     
-![png](output_70_0.png)
+![png](output_71_0.png)
     
 
 
@@ -2299,7 +2301,7 @@ plt.xlabel('Horizen(Days)', fontsize=18);#set x axis name and size
 
 
     
-![png](output_85_0.png)
+![png](output_86_0.png)
     
 
 
@@ -2315,7 +2317,7 @@ plt.xlabel('Horizen(Days)', fontsize=18);#set x axis name and size
 
 
     
-![png](output_87_0.png)
+![png](output_88_0.png)
     
 
 
@@ -2331,7 +2333,7 @@ plt.xlabel('Horizen(Days)', fontsize=18);#set x axis name and size
 
 
     
-![png](output_89_0.png)
+![png](output_90_0.png)
     
 
 
