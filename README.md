@@ -1,5 +1,5 @@
 # Forecasting Covid-19 Cases
-### Data Science Bootcamp Final Project 
+### _Data Science Bootcamp Final Project_ 
 
 ### The Project Goal:
  **_Forecast (predict) the number of (Covid -19) new cases over time_**
