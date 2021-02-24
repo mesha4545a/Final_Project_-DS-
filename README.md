@@ -41,12 +41,12 @@
 
 #### Phase 2: Exploratory Data Analysis [(EDA)](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/EDA/EDA.md)
 - This phase is done by Jupiter lab and tableau simulations
-- insight:
- -  There columns that contain null values that should  be dropped 
- -  Europe data were represented as” Europe” and “Europe Union”
- - The location contains some continent
- - The location contains "World"  and "international" 
- -  It logical to forecast every location by itself 
+- **insight:**
+  -  There columns that contain null values that should  be dropped 
+  -  Europe data were represented as” Europe” and “Europe Union”
+  - The location contains some continent
+  - The location contains "World"  and "international" 
+  -  It logical to forecast every location by itself 
 
   
 **This Phase resulted in:**
