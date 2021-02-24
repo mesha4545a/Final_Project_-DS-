@@ -51,7 +51,7 @@
   
 **This Phase resulted in:**
 - **a new dataset that has no Null Value named [EDA.csv](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/EDA.csv)**
-- **tableau dashboard[here](https://dub01.online.tableau.com/#/site/mesha4544/views/EDA/Dashboard1)**
+- **tableau dashboard [here](https://dub01.online.tableau.com/#/site/mesha4544/views/EDA/Dashboard1)**
 
 
  
