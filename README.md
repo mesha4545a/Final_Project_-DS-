@@ -52,7 +52,7 @@
 **This Phase resulted in:**
 - **a new dataset that has no Null Value named [EDA.csv](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/EDA.csv)**
 - **tableau dashboard [here](https://dub01.online.tableau.com/#/site/mesha4544/views/EDA/Dashboard1)**
-- 
+
 
 #### Phase 3: [Forecasting Covied-19 new_cases:](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/ML_Final/ML_Final.md)
 - In this Phase, applied  Baseline Model & Facebook Prophet Model
@@ -138,7 +138,7 @@ As seen can see the prediction line (deep blue line) is  close to the data point
 
 - As seen in trend it appears that the number of new cases of covid-19 was less than 0 at the start then it started to come up then  start to slowly decrease  and return to less than 0
 - As seen in” weekly it appears that the number of cases is highest is on Friday and Monday 
-- 
+
 ***
 
 ### Comparing performance between Baseline Model and Facebook prophet Model
