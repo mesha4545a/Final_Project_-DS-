@@ -2,6 +2,7 @@
 ### Data Science Bootcamp Final Project 
 ### The Project Goal:
   Use machine learning to forecast (predict) the number of (Covid -19) new cases over time
+  
   ---
 ### Tools in the Project 
 - python 3.8
