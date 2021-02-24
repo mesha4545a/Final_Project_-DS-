@@ -34,9 +34,22 @@
   - Dropped rows that duplicated or the "new_cases" for the "location"column was Null like Hong Kong
   - Use LinearRegression Model to fill columns like "new_deaths_smoothe"
   
-**this Phase resulted in a new dataset that has fewer Null values named [“Owid-covid-data-filled.csv”](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/Owid-covid-data-filled.csv)**
+**This Phase resulted in a new dataset that has fewer Null values named [“Owid-covid-data-filled.csv”](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/Owid-covid-data-filled.csv)**
 
 
+#### Phase 2: Exploratory Data Analysis (EDA)
+- This phase is done by Jupiter lab and tableau simulations
+- insight:
+ -  There columns that contain null values that should  be dropped 
+ -  Europe data were represented as” Europe” and “Europe Union”
+ - The location contains some continent
+ - The location contains "World"  and "international" 
+ -  It logical to forecast every location by itself 
+
+  
+**This Phase resulted in:**
+- **a new dataset that has no Null Value named [EDA.csv](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/EDA.csv)**
+- **tableau dashboard[here](https://dub01.online.tableau.com/#/site/mesha4544/views/EDA/Dashboard1)**
 
 
  
