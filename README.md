@@ -2,10 +2,10 @@
 ### Data Science Bootcamp Final Project 
 
 ### The Project Goal:
- *Forecast (predict) the number of (Covid -19) new cases over time*
+ **_Forecast (predict) the number of (Covid -19) new cases over time_**
   
 ### Tools in the Project:
-- python 3.8
+- Python 3.8
 - Jupyter Lab
 - Tableau
 - **Libraries:**
