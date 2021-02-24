@@ -637,7 +637,7 @@ m.fit(International) # fit model
 
 
 
-    <fbprophet.forecaster.Prophet at 0x273819b6340>
+    <fbprophet.forecaster.Prophet at 0x27226821520>
 
 
 
@@ -752,8 +752,8 @@ m.predict(future_Int) #  make a forecast
       <th>0</th>
       <td>2020-02-07</td>
       <td>20.702194</td>
-      <td>8.120557</td>
-      <td>32.558632</td>
+      <td>7.750488</td>
+      <td>32.810530</td>
       <td>20.702194</td>
       <td>20.702194</td>
       <td>-0.151995</td>
@@ -771,8 +771,8 @@ m.predict(future_Int) #  make a forecast
       <th>1</th>
       <td>2020-02-08</td>
       <td>20.401033</td>
-      <td>7.364038</td>
-      <td>32.426553</td>
+      <td>7.101441</td>
+      <td>32.040009</td>
       <td>20.401033</td>
       <td>20.401033</td>
       <td>-0.753577</td>
@@ -790,8 +790,8 @@ m.predict(future_Int) #  make a forecast
       <th>2</th>
       <td>2020-02-09</td>
       <td>20.099873</td>
-      <td>9.025253</td>
-      <td>33.214233</td>
+      <td>7.985953</td>
+      <td>32.907351</td>
       <td>20.099873</td>
       <td>20.099873</td>
       <td>0.454282</td>
@@ -809,8 +809,8 @@ m.predict(future_Int) #  make a forecast
       <th>3</th>
       <td>2020-02-10</td>
       <td>19.798712</td>
-      <td>8.772705</td>
-      <td>34.142569</td>
+      <td>9.585402</td>
+      <td>32.647644</td>
       <td>19.798712</td>
       <td>19.798712</td>
       <td>1.265996</td>
@@ -828,8 +828,8 @@ m.predict(future_Int) #  make a forecast
       <th>4</th>
       <td>2020-02-11</td>
       <td>19.497552</td>
-      <td>6.887016</td>
-      <td>31.966118</td>
+      <td>8.198238</td>
+      <td>32.023564</td>
       <td>19.497552</td>
       <td>19.497552</td>
       <td>-0.206922</td>
@@ -866,10 +866,10 @@ m.predict(future_Int) #  make a forecast
       <th>731</th>
       <td>2022-02-07</td>
       <td>-0.346873</td>
-      <td>-23.343742</td>
-      <td>24.593315</td>
-      <td>-20.529668</td>
-      <td>22.302586</td>
+      <td>-23.171782</td>
+      <td>25.090767</td>
+      <td>-20.590137</td>
+      <td>21.647048</td>
       <td>1.265996</td>
       <td>1.265996</td>
       <td>1.265996</td>
@@ -885,10 +885,10 @@ m.predict(future_Int) #  make a forecast
       <th>732</th>
       <td>2022-02-08</td>
       <td>-0.347309</td>
-      <td>-24.741450</td>
-      <td>25.654575</td>
-      <td>-20.633886</td>
-      <td>22.380811</td>
+      <td>-26.362863</td>
+      <td>25.227735</td>
+      <td>-20.667110</td>
+      <td>21.730805</td>
       <td>-0.206922</td>
       <td>-0.206922</td>
       <td>-0.206922</td>
@@ -904,10 +904,10 @@ m.predict(future_Int) #  make a forecast
       <th>733</th>
       <td>2022-02-09</td>
       <td>-0.347745</td>
-      <td>-24.010251</td>
-      <td>27.577601</td>
-      <td>-20.738104</td>
-      <td>22.459110</td>
+      <td>-23.456983</td>
+      <td>26.359738</td>
+      <td>-20.743072</td>
+      <td>21.867411</td>
       <td>0.923393</td>
       <td>0.923393</td>
       <td>0.923393</td>
@@ -923,10 +923,10 @@ m.predict(future_Int) #  make a forecast
       <th>734</th>
       <td>2022-02-10</td>
       <td>-0.348180</td>
-      <td>-26.633299</td>
-      <td>24.892264</td>
-      <td>-20.842323</td>
-      <td>22.537409</td>
+      <td>-25.609757</td>
+      <td>24.169523</td>
+      <td>-20.804131</td>
+      <td>22.011928</td>
       <td>-1.531178</td>
       <td>-1.531178</td>
       <td>-1.531178</td>
@@ -942,10 +942,10 @@ m.predict(future_Int) #  make a forecast
       <th>735</th>
       <td>2022-02-11</td>
       <td>-0.348616</td>
-      <td>-24.825848</td>
-      <td>26.005673</td>
-      <td>-20.943356</td>
-      <td>22.629328</td>
+      <td>-24.616939</td>
+      <td>26.024826</td>
+      <td>-20.846973</td>
+      <td>22.156446</td>
       <td>-0.151995</td>
       <td>-0.151995</td>
       <td>-0.151995</td>
@@ -1002,36 +1002,36 @@ forecast_Int[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail() # chosen columns
       <th>731</th>
       <td>2022-02-07</td>
       <td>0.919123</td>
-      <td>-26.381158</td>
-      <td>26.620019</td>
+      <td>-22.839603</td>
+      <td>27.049937</td>
     </tr>
     <tr>
       <th>732</th>
       <td>2022-02-08</td>
       <td>-0.554231</td>
-      <td>-25.386885</td>
-      <td>24.887145</td>
+      <td>-26.204714</td>
+      <td>26.348030</td>
     </tr>
     <tr>
       <th>733</th>
       <td>2022-02-09</td>
       <td>0.575649</td>
-      <td>-24.832774</td>
-      <td>25.257137</td>
+      <td>-24.506168</td>
+      <td>27.231167</td>
     </tr>
     <tr>
       <th>734</th>
       <td>2022-02-10</td>
       <td>-1.879358</td>
-      <td>-27.533868</td>
-      <td>24.341889</td>
+      <td>-26.934668</td>
+      <td>23.308032</td>
     </tr>
     <tr>
       <th>735</th>
       <td>2022-02-11</td>
       <td>-0.500610</td>
-      <td>-26.114134</td>
-      <td>25.361182</td>
+      <td>-25.459673</td>
+      <td>25.362906</td>
     </tr>
   </tbody>
 </table>
@@ -1087,7 +1087,7 @@ m1.fit(world) # fit model
 
 
 
-    <fbprophet.forecaster.Prophet at 0x27383e80610>
+    <fbprophet.forecaster.Prophet at 0x27228ceb7c0>
 
 
 
@@ -1202,8 +1202,8 @@ m1.predict(future_W) #  make a forecast
       <th>0</th>
       <td>2020-02-07</td>
       <td>-10608.346258</td>
-      <td>-51150.415541</td>
-      <td>7.947952e+04</td>
+      <td>-45724.549348</td>
+      <td>8.736507e+04</td>
       <td>-10608.346258</td>
       <td>-1.060835e+04</td>
       <td>27655.449735</td>
@@ -1221,8 +1221,8 @@ m1.predict(future_W) #  make a forecast
       <th>1</th>
       <td>2020-02-08</td>
       <td>-9411.974851</td>
-      <td>-76767.884999</td>
-      <td>5.301029e+04</td>
+      <td>-80139.405769</td>
+      <td>6.061194e+04</td>
       <td>-9411.974851</td>
       <td>-9.411975e+03</td>
       <td>-1318.119703</td>
@@ -1240,8 +1240,8 @@ m1.predict(future_W) #  make a forecast
       <th>2</th>
       <td>2020-02-09</td>
       <td>-8215.603445</td>
-      <td>-119498.749608</td>
-      <td>1.278768e+04</td>
+      <td>-114781.578549</td>
+      <td>1.769655e+04</td>
       <td>-8215.603445</td>
       <td>-8.215603e+03</td>
       <td>-42280.738107</td>
@@ -1259,8 +1259,8 @@ m1.predict(future_W) #  make a forecast
       <th>3</th>
       <td>2020-02-10</td>
       <td>-7019.232038</td>
-      <td>-109170.298457</td>
-      <td>2.896189e+04</td>
+      <td>-107838.482901</td>
+      <td>2.705823e+04</td>
       <td>-7019.232038</td>
       <td>-7.019232e+03</td>
       <td>-33592.304953</td>
@@ -1278,8 +1278,8 @@ m1.predict(future_W) #  make a forecast
       <th>4</th>
       <td>2020-02-11</td>
       <td>-5822.860632</td>
-      <td>-73076.781266</td>
-      <td>6.484047e+04</td>
+      <td>-75615.954735</td>
+      <td>6.134239e+04</td>
       <td>-5822.860632</td>
       <td>-5.822861e+03</td>
       <td>-532.618487</td>
@@ -1316,10 +1316,10 @@ m1.predict(future_W) #  make a forecast
       <th>731</th>
       <td>2022-02-07</td>
       <td>438946.725143</td>
-      <td>-191695.396550</td>
-      <td>9.543062e+05</td>
-      <td>-159760.503713</td>
-      <td>9.980510e+05</td>
+      <td>-232967.113181</td>
+      <td>9.904519e+05</td>
+      <td>-187509.211812</td>
+      <td>1.017548e+06</td>
       <td>-33592.304953</td>
       <td>-33592.304953</td>
       <td>-33592.304953</td>
@@ -1335,10 +1335,10 @@ m1.predict(future_W) #  make a forecast
       <th>732</th>
       <td>2022-02-08</td>
       <td>438579.915066</td>
-      <td>-172707.147442</td>
-      <td>9.993132e+05</td>
-      <td>-162956.785625</td>
-      <td>1.001086e+06</td>
+      <td>-198696.623349</td>
+      <td>1.008940e+06</td>
+      <td>-189262.810180</td>
+      <td>1.018651e+06</td>
       <td>-532.618487</td>
       <td>-532.618487</td>
       <td>-532.618487</td>
@@ -1354,10 +1354,10 @@ m1.predict(future_W) #  make a forecast
       <th>733</th>
       <td>2022-02-09</td>
       <td>438213.104990</td>
-      <td>-141821.444050</td>
-      <td>1.026487e+06</td>
-      <td>-164665.421620</td>
-      <td>1.004027e+06</td>
+      <td>-173719.871305</td>
+      <td>1.056754e+06</td>
+      <td>-191016.408549</td>
+      <td>1.019862e+06</td>
       <td>23034.541194</td>
       <td>23034.541194</td>
       <td>23034.541194</td>
@@ -1373,10 +1373,10 @@ m1.predict(future_W) #  make a forecast
       <th>734</th>
       <td>2022-02-10</td>
       <td>437846.294914</td>
-      <td>-138074.246443</td>
-      <td>1.027648e+06</td>
-      <td>-166166.187160</td>
-      <td>1.006143e+06</td>
+      <td>-164920.909815</td>
+      <td>1.065566e+06</td>
+      <td>-194739.977096</td>
+      <td>1.020831e+06</td>
       <td>27033.790321</td>
       <td>27033.790321</td>
       <td>27033.790321</td>
@@ -1392,10 +1392,10 @@ m1.predict(future_W) #  make a forecast
       <th>735</th>
       <td>2022-02-11</td>
       <td>437479.484837</td>
-      <td>-124448.701260</td>
-      <td>1.031285e+06</td>
-      <td>-167666.952700</td>
-      <td>1.007956e+06</td>
+      <td>-169972.419291</td>
+      <td>1.042347e+06</td>
+      <td>-196640.188182</td>
+      <td>1.023494e+06</td>
       <td>27655.449735</td>
       <td>27655.449735</td>
       <td>27655.449735</td>
@@ -1452,36 +1452,36 @@ forecast_W[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail() # chosen columns
       <th>731</th>
       <td>2022-02-07</td>
       <td>405354.420189</td>
-      <td>-234430.230883</td>
-      <td>1.028121e+06</td>
+      <td>-188432.974809</td>
+      <td>1.024010e+06</td>
     </tr>
     <tr>
       <th>732</th>
       <td>2022-02-08</td>
       <td>438047.296580</td>
-      <td>-197549.900638</td>
-      <td>1.047720e+06</td>
+      <td>-174828.557557</td>
+      <td>1.041143e+06</td>
     </tr>
     <tr>
       <th>733</th>
       <td>2022-02-09</td>
       <td>461247.646184</td>
-      <td>-182616.411754</td>
-      <td>1.076066e+06</td>
+      <td>-118286.308065</td>
+      <td>1.090884e+06</td>
     </tr>
     <tr>
       <th>734</th>
       <td>2022-02-10</td>
       <td>464880.085235</td>
-      <td>-164416.323675</td>
-      <td>1.093731e+06</td>
+      <td>-129632.723674</td>
+      <td>1.088504e+06</td>
     </tr>
     <tr>
       <th>735</th>
       <td>2022-02-11</td>
       <td>465134.934572</td>
-      <td>-182777.605304</td>
-      <td>1.095845e+06</td>
+      <td>-121521.894305</td>
+      <td>1.080866e+06</td>
     </tr>
   </tbody>
 </table>
@@ -1538,7 +1538,7 @@ m2.fit(Saudi) # fit model
 
 
 
-    <fbprophet.forecaster.Prophet at 0x27383e39b80>
+    <fbprophet.forecaster.Prophet at 0x27228e61b50>
 
 
 
@@ -1653,8 +1653,8 @@ m2.predict(future_S )#  make a forecast
       <th>0</th>
       <td>2020-03-02</td>
       <td>-601.387581</td>
-      <td>-1036.288828</td>
-      <td>-148.763481</td>
+      <td>-994.878896</td>
+      <td>-177.939804</td>
       <td>-601.387581</td>
       <td>-601.387581</td>
       <td>13.842536</td>
@@ -1672,8 +1672,8 @@ m2.predict(future_S )#  make a forecast
       <th>1</th>
       <td>2020-03-03</td>
       <td>-566.190579</td>
-      <td>-992.647105</td>
-      <td>-138.672308</td>
+      <td>-1002.078307</td>
+      <td>-115.923780</td>
       <td>-566.190579</td>
       <td>-566.190579</td>
       <td>5.174496</td>
@@ -1691,8 +1691,8 @@ m2.predict(future_S )#  make a forecast
       <th>2</th>
       <td>2020-03-04</td>
       <td>-530.993577</td>
-      <td>-955.737001</td>
-      <td>-119.805282</td>
+      <td>-957.916636</td>
+      <td>-102.194172</td>
       <td>-530.993577</td>
       <td>-530.993577</td>
       <td>-6.954218</td>
@@ -1710,8 +1710,8 @@ m2.predict(future_S )#  make a forecast
       <th>3</th>
       <td>2020-03-05</td>
       <td>-495.796575</td>
-      <td>-931.403485</td>
-      <td>-49.576389</td>
+      <td>-955.679704</td>
+      <td>-80.010094</td>
       <td>-495.796575</td>
       <td>-495.796575</td>
       <td>-11.347144</td>
@@ -1729,8 +1729,8 @@ m2.predict(future_S )#  make a forecast
       <th>4</th>
       <td>2020-03-06</td>
       <td>-460.599574</td>
-      <td>-863.051506</td>
-      <td>-22.685205</td>
+      <td>-891.975040</td>
+      <td>25.778938</td>
       <td>-460.599574</td>
       <td>-460.599574</td>
       <td>23.823963</td>
@@ -1767,10 +1767,10 @@ m2.predict(future_S )#  make a forecast
       <th>707</th>
       <td>2022-02-07</td>
       <td>-895.591197</td>
-      <td>-9915.666435</td>
-      <td>7681.119612</td>
-      <td>-9785.100361</td>
-      <td>7776.081832</td>
+      <td>-9467.076775</td>
+      <td>6766.278338</td>
+      <td>-9460.463360</td>
+      <td>6862.645645</td>
       <td>13.842536</td>
       <td>13.842536</td>
       <td>13.842536</td>
@@ -1786,10 +1786,10 @@ m2.predict(future_S )#  make a forecast
       <th>708</th>
       <td>2022-02-08</td>
       <td>-898.329124</td>
-      <td>-9747.957361</td>
-      <td>7674.028140</td>
-      <td>-9820.378424</td>
-      <td>7814.510501</td>
+      <td>-9484.760824</td>
+      <td>6857.084721</td>
+      <td>-9512.801023</td>
+      <td>6884.588469</td>
       <td>5.174496</td>
       <td>5.174496</td>
       <td>5.174496</td>
@@ -1805,10 +1805,10 @@ m2.predict(future_S )#  make a forecast
       <th>709</th>
       <td>2022-02-09</td>
       <td>-901.067050</td>
-      <td>-9785.408564</td>
-      <td>7645.312545</td>
-      <td>-9853.262245</td>
-      <td>7845.606093</td>
+      <td>-9492.351889</td>
+      <td>6976.963422</td>
+      <td>-9564.980822</td>
+      <td>6916.596563</td>
       <td>-6.954218</td>
       <td>-6.954218</td>
       <td>-6.954218</td>
@@ -1824,10 +1824,10 @@ m2.predict(future_S )#  make a forecast
       <th>710</th>
       <td>2022-02-10</td>
       <td>-903.804977</td>
-      <td>-10005.878252</td>
-      <td>7855.457016</td>
-      <td>-9884.868903</td>
-      <td>7874.427593</td>
+      <td>-9521.690682</td>
+      <td>6937.210490</td>
+      <td>-9617.067414</td>
+      <td>6961.655759</td>
       <td>-11.347144</td>
       <td>-11.347144</td>
       <td>-11.347144</td>
@@ -1843,10 +1843,10 @@ m2.predict(future_S )#  make a forecast
       <th>711</th>
       <td>2022-02-11</td>
       <td>-906.542903</td>
-      <td>-9780.486165</td>
-      <td>7889.476990</td>
-      <td>-9916.475562</td>
-      <td>7903.249094</td>
+      <td>-9860.319663</td>
+      <td>7087.931364</td>
+      <td>-9655.677903</td>
+      <td>7007.650603</td>
       <td>23.823963</td>
       <td>23.823963</td>
       <td>23.823963</td>
@@ -1903,36 +1903,36 @@ forecast_S[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail() # chosen columns
       <th>731</th>
       <td>2022-02-07</td>
       <td>-881.748661</td>
-      <td>-9441.236646</td>
-      <td>7397.126421</td>
+      <td>-9368.484252</td>
+      <td>8245.167203</td>
     </tr>
     <tr>
       <th>732</th>
       <td>2022-02-08</td>
       <td>-893.154628</td>
-      <td>-9511.876988</td>
-      <td>7531.003775</td>
+      <td>-9223.465059</td>
+      <td>8460.694806</td>
     </tr>
     <tr>
       <th>733</th>
       <td>2022-02-09</td>
       <td>-908.021269</td>
-      <td>-9547.481511</td>
-      <td>7433.414975</td>
+      <td>-9464.122220</td>
+      <td>8416.181152</td>
     </tr>
     <tr>
       <th>734</th>
       <td>2022-02-10</td>
       <td>-915.152121</td>
-      <td>-9887.308277</td>
-      <td>7555.336034</td>
+      <td>-9623.049132</td>
+      <td>8378.059833</td>
     </tr>
     <tr>
       <th>735</th>
       <td>2022-02-11</td>
       <td>-882.718941</td>
-      <td>-9754.584148</td>
-      <td>7608.762775</td>
+      <td>-9492.577155</td>
+      <td>8434.570709</td>
     </tr>
   </tbody>
 </table>
@@ -2030,8 +2030,8 @@ Int_cv.tail()
       <th>355</th>
       <td>2021-02-07</td>
       <td>-0.289656</td>
-      <td>-15.203394</td>
-      <td>13.464654</td>
+      <td>-14.612979</td>
+      <td>12.964049</td>
       <td>0.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2039,8 +2039,8 @@ Int_cv.tail()
       <th>356</th>
       <td>2021-02-08</td>
       <td>0.780397</td>
-      <td>-14.238935</td>
-      <td>14.255059</td>
+      <td>-13.631736</td>
+      <td>14.068393</td>
       <td>0.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2048,8 +2048,8 @@ Int_cv.tail()
       <th>357</th>
       <td>2021-02-09</td>
       <td>-1.175760</td>
-      <td>-14.347619</td>
-      <td>13.818463</td>
+      <td>-15.794493</td>
+      <td>13.777873</td>
       <td>0.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2057,8 +2057,8 @@ Int_cv.tail()
       <th>358</th>
       <td>2021-02-10</td>
       <td>0.317515</td>
-      <td>-13.863805</td>
-      <td>14.571108</td>
+      <td>-14.610886</td>
+      <td>14.247086</td>
       <td>0.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2066,8 +2066,8 @@ Int_cv.tail()
       <th>359</th>
       <td>2021-02-11</td>
       <td>-2.940298</td>
-      <td>-17.080033</td>
-      <td>11.310512</td>
+      <td>-18.442861</td>
+      <td>11.449271</td>
       <td>0.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2130,8 +2130,8 @@ W_cv.tail()
       <th>355</th>
       <td>2021-02-07</td>
       <td>9.423845e+05</td>
-      <td>875094.428643</td>
-      <td>1.013977e+06</td>
+      <td>872133.721075</td>
+      <td>1.004810e+06</td>
       <td>397050.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2139,8 +2139,8 @@ W_cv.tail()
       <th>356</th>
       <td>2021-02-08</td>
       <td>9.536786e+05</td>
-      <td>888577.358166</td>
-      <td>1.026080e+06</td>
+      <td>880759.474914</td>
+      <td>1.020311e+06</td>
       <td>315176.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2148,8 +2148,8 @@ W_cv.tail()
       <th>357</th>
       <td>2021-02-09</td>
       <td>9.713878e+05</td>
-      <td>899744.430182</td>
-      <td>1.044155e+06</td>
+      <td>901736.630292</td>
+      <td>1.039841e+06</td>
       <td>427277.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2157,8 +2157,8 @@ W_cv.tail()
       <th>358</th>
       <td>2021-02-10</td>
       <td>9.899952e+05</td>
-      <td>916498.404279</td>
-      <td>1.067741e+06</td>
+      <td>918309.761338</td>
+      <td>1.058242e+06</td>
       <td>514862.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2166,8 +2166,8 @@ W_cv.tail()
       <th>359</th>
       <td>2021-02-11</td>
       <td>1.002870e+06</td>
-      <td>929050.512808</td>
-      <td>1.080110e+06</td>
+      <td>927701.294560</td>
+      <td>1.068437e+06</td>
       <td>437761.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2230,8 +2230,8 @@ S_cv.tail()
       <th>265</th>
       <td>2021-02-07</td>
       <td>-723.092579</td>
-      <td>-1958.725776</td>
-      <td>510.562916</td>
+      <td>-2042.136222</td>
+      <td>409.962980</td>
       <td>317.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2239,8 +2239,8 @@ S_cv.tail()
       <th>266</th>
       <td>2021-02-08</td>
       <td>-683.277603</td>
-      <td>-1886.011602</td>
-      <td>546.697732</td>
+      <td>-1936.604718</td>
+      <td>487.884577</td>
       <td>356.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2248,8 +2248,8 @@ S_cv.tail()
       <th>267</th>
       <td>2021-02-09</td>
       <td>-712.868756</td>
-      <td>-2018.886278</td>
-      <td>501.397506</td>
+      <td>-1986.599847</td>
+      <td>422.840252</td>
       <td>353.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2257,8 +2257,8 @@ S_cv.tail()
       <th>268</th>
       <td>2021-02-10</td>
       <td>-739.247702</td>
-      <td>-2033.744995</td>
-      <td>580.370264</td>
+      <td>-2070.026239</td>
+      <td>464.158614</td>
       <td>369.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2266,8 +2266,8 @@ S_cv.tail()
       <th>269</th>
       <td>2021-02-11</td>
       <td>-755.189568</td>
-      <td>-2050.161505</td>
-      <td>513.422259</td>
+      <td>-2169.970143</td>
+      <td>462.837156</td>
       <td>364.0</td>
       <td>2020-11-13</td>
     </tr>
@@ -2292,7 +2292,7 @@ from fbprophet.plot import plot_cross_validation_metric
 
 
 ```python
-fig = plot_cross_validation_metric(Int_cv, metric='mse')
+fig = plot_cross_validation_metric(Int_cv, metric='mae')
 plt.title("International Evaluation", fontsize=16) # set title
 plt.ylabel('MSA', fontsize=18) #set y axis name and size
 plt.xlabel('Horizen(Days)', fontsize=18);#set x axis name and size
@@ -2308,7 +2308,7 @@ plt.xlabel('Horizen(Days)', fontsize=18);#set x axis name and size
 
 
 ```python
-fig = plot_cross_validation_metric(W_cv, metric='mse')
+fig = plot_cross_validation_metric(W_cv, metric='mae')
 plt.title("World Evaluation", fontsize=16) # set title
 plt.ylabel('MSA', fontsize=18) #set y axis name and size
 plt.xlabel('Horizen(Days)', fontsize=18);#set x axis name and size
@@ -2324,7 +2324,7 @@ plt.xlabel('Horizen(Days)', fontsize=18);#set x axis name and size
 
 
 ```python
-fig = plot_cross_validation_metric(S_cv, metric='mse')
+fig = plot_cross_validation_metric(S_cv, metric='mae')
 plt.title("Saudi Evaluation", fontsize=16) # set title
 plt.ylabel('MAS', fontsize=18) #set y axis name and size
 plt.xlabel('Horizen(Days)', fontsize=18);#set x axis name and size
@@ -2513,8 +2513,8 @@ df_p.mae.tail(1) # mean_absolute_error 487182.5
 
 
 
-    81    297002.705972
-    Name: mae, dtype: float64
+    81    1.147476e+11
+    Name: mse, dtype: float64
 
 
 
