@@ -114,6 +114,10 @@ As seen can see the prediction line (deep blue line) is  close to the data point
 ![output_49_0](https://user-images.githubusercontent.com/48656800/109057109-6266ce80-76f2-11eb-921c-497bd5c3a0a3.png)
 
 
+As seen in trend it appears that the number of new cases of covid-19 was high at the start  then it started to come down to 0 and stand like that until the last date recorded
+
+****
+
 The model  score better the baseline 
 
 
