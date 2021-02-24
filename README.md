@@ -104,6 +104,15 @@ By plotting the forecast you can evaluate how is the model dowing
 
 As seen can see the prediction line (deep blue line) is  close to the data points(black dots) which is good that means that the model is predicting accurately to some extent 
 
+***
+
+### Component Plots:
+
+#### International Component Plot
+
+
+![output_49_0](https://user-images.githubusercontent.com/48656800/109057109-6266ce80-76f2-11eb-921c-497bd5c3a0a3.png)
+
 
 The model  score better the baseline 
 
