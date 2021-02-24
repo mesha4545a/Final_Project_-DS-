@@ -33,7 +33,7 @@
   - Dropped rows that duplicated or the "new_cases" for the "location"column was Null like Hong Kong
   - Use LinearRegression Model to fill columns like "new_deaths_smoothe"
   
-**This Phase outed new dataseat had fewer null values named [“Owid-covid-data-filled.csv”**](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/Owid-covid-data-filled.csv)
+**This Phase outed new dataseat had fewer null values named [“Owid-covid-data-filled.csv”]**(https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/Owid-covid-data-filled.csv)
 
 
 
