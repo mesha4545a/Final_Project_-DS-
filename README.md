@@ -54,7 +54,7 @@
 - **tableau dashboard [here](https://dub01.online.tableau.com/#/site/mesha4544/views/EDA/Dashboard1)**
 - 
 
-#### Phase 3: [Forecasting Covied-19 new_cases:](https://github.com/mesha4545a/Final_Project_-DS-/tree/main/ML_Final)
+#### Phase 3: [Forecasting Covied-19 new_cases:](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/ML_Final/ML_Final.md)
 - In this Phase, applied  Baseline Model & Facebook Prophet Model
 - The  baseline model approach is most recent day reflect the future 
 
@@ -62,7 +62,25 @@
 The idea was to use the entire dataset and apply the facebook prophet model to every country 
 But due to some technical difficulty(my laptop was close to crash), the idea changed to  apply the model on 
 "International", "world" and "Saudi Arabia" locations
-**Result:**
+---
+
+##### baseline model:
+In the baseline model, I chose the approach history is the best reflect for the future  
+Take the value of the data and shift it one step to represent the future day then repeat this 90 time to represent 90 days into the future 
+that as you will see result in a fixed model
+##### baseline plots:
+
+![output_26_0](https://user-images.githubusercontent.com/48656800/109050036-04ce8400-76ea-11eb-8f8a-2ff35dd02330.png)
+
+
+![output_27_0](https://user-images.githubusercontent.com/48656800/109050237-37787c80-76ea-11eb-8460-ec41afa8ed24.png)
+
+
+![output_28_0](https://user-images.githubusercontent.com/48656800/109050304-4a8b4c80-76ea-11eb-9420-02925b74102d.png)
+
+
+
+
 The model  score better the baseline 
 
 
