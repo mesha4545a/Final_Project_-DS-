@@ -142,21 +142,26 @@ As seen can see the prediction line (deep blue line) is  close to the data point
 ***
 
 ### Comparing performance between Baseline Model and Facebook prophet Model
-- using mean absolute error
-- 
+
+-  Comparing performance base on  mean absolute error 
+
+
  #### International dataset 
+ 
  - Baseline Model: 8.011111111111111
  - Facebook Prophet:2.430505
- - 
+
 #### World dataset 
+
  - Baseline Model: 487182.5
  - Facebook Prophet: 297002.705972
- - 
+ 
 #### Saudi dataset 
+
  - Baseline Model: 804.3555555555556
  - Facebook Prophet: 2235.389194
- - 
-### Conclosign 
+ 
+#### Conclosign 
 
 - Facebook prophet Model is more accurate than the Baseline Model 
 - Facebook prophet has more functions that make handling time series easier and accurate
