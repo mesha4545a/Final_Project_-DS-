@@ -1,8 +1,10 @@
 # Forecasting Covid-19 Cases
 ### _Data Science Bootcamp Final Project_ 
 
-### The Project Goal:
- **_Forecast (predict) the number of (Covid -19) new cases over time_**
+### The Project:
+ - [Forecasting Covid-19 Cases](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/ML_Final/ML_Final.md)
+ 
+ - **_The goal is to Forecast (predict) the number of (Covid -19) new cases over time_**
  ___
 
 ### The Dataseat:
@@ -27,7 +29,7 @@
 
 ## Project Workflow:
 ### The Project has 3 Phases:
-#### Phase 1: Filling the Null Values 
+#### Phase 1: [Filling the Null Values](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/Null_Fill/Null_Fill.ipynb)  
 - All the columns had null values except "date" and "total_cases" 
 - Techniques used to fill the Null Values :
   - Fill the columns based on other columns like the "iso_code" & "continen"t columns  based on what in the "location" column
@@ -37,7 +39,7 @@
 **This Phase resulted in a new dataset that has fewer Null values named [“Owid-covid-data-filled.csv”](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/Owid-covid-data-filled.csv)**
 
 
-#### Phase 2: Exploratory Data Analysis (EDA)
+#### Phase 2: Exploratory Data Analysis [(EDA)](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/EDA/EDA.md)
 - This phase is done by Jupiter lab and tableau simulations
 - insight:
  -  There columns that contain null values that should  be dropped 
