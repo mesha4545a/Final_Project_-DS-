@@ -64,11 +64,11 @@ But due to some technical difficulty(my laptop was close to crash), the idea cha
 "International", "world" and "Saudi Arabia" locations
 ---
 
-##### baseline model:
+#### Baseline Model:
 In the baseline model, I chose the approach history is the best reflect for the future  
 Take the value of the data and shift it one step to represent the future day then repeat this 90 time to represent 90 days into the future 
 that as you will see result in a fixed model
-##### baseline plots:
+#### Baseline Plots:
 
 ![output_26_0](https://user-images.githubusercontent.com/48656800/109050036-04ce8400-76ea-11eb-8f8a-2ff35dd02330.png)
 
