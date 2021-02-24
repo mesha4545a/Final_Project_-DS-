@@ -116,13 +116,24 @@ As seen can see the prediction line (deep blue line) is  close to the data point
 
 - As seen in trend it appears that the number of new cases of covid-19 was high at the start  then it started to come down to 0 and stand like that until the last date recorded
 - As observed  in "weekly" the highest number of cases is on Monday 
-- 
+
 ****
 
 #### World Component Plot
 
 
 ![output_60_0](https://user-images.githubusercontent.com/48656800/109058653-4fed9480-76f4-11eb-8f4b-2d34191e0a98.png)
+
+
+- As seen in trend it appears that the number of new cases of covid-19 was 0 at the start then it started to come up  at the end of 2020 to 6 and start to slowly decrease 
+- As seen in” weekly" it appears that the number of cases is highest between Wednesday and fraidy 
+
+***
+
+#### Saudi Arabia Component Plot
+
+
+![output_71_0](https://user-images.githubusercontent.com/48656800/109059680-8d065680-76f5-11eb-83d2-7772c4f1d7db.png)
 
 
 The model  score better the baseline 
