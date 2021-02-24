@@ -25,7 +25,7 @@
 ---
 
 ## Project Workflow:
-###There are 3 phases the Project got through:
+### The Project has 3 Phases:
 #### Filling the Null Values 
 - All the columns had null values except "date" and "total_cases" 
 - Techniques used to fill the Null Values :
