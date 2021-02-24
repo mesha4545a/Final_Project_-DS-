@@ -79,6 +79,8 @@ that as you will see result in a fixed model
 ![output_28_0](https://user-images.githubusercontent.com/48656800/109050304-4a8b4c80-76ea-11eb-9420-02925b74102d.png)
 
 
+***
+
 #### Facebook's Prophet Model:
 By plotting the forecast you can evaluate how is the model dowing 
 - The black dots: represrnt the actual data point in the data set 
