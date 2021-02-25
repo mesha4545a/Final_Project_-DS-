@@ -33,7 +33,6 @@
 - All the columns had null values except "date" and "total_cases" 
 - Techniques used to fill the Null Values :
   - Fill the columns based on other columns like the "iso_code" & "continen"t columns  based on what in the "location" column
-  - Dropped rows that duplicated or the "new_cases" for the "location"column was Null like Hong Kong
   - Use LinearRegression Model to fill columns like "new_deaths_smoothe"
   
 **This Phase resulted in a new dataset that has fewer Null values named [“Owid-covid-data-filled.csv”](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/Owid-covid-data-filled.csv)**
@@ -48,6 +47,7 @@
   -  Europe data were represented as” Europe” and “Europe Union”
   - The location contains some continent
   - The location contains "World"  and "international" 
+  -  Dropped rows that duplicated
   -  It logical to forecast every location by itself 
 
   
