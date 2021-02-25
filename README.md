@@ -32,8 +32,9 @@
 #### Phase 1: [Filling the Null Values](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/Null_Fill/Null_Fill.ipynb)  
 - All the columns had null values except "date" and "total_cases" 
 - Techniques used to fill the Null Values :
-  - Fill the columns based on other columns like the "iso_code" & "continen"t columns  based on what in the "location" column
+  - Fill the columns based on other columns like the "iso_code" & "continent" columns  based on what in the "location" column
   - Use LinearRegression Model to fill columns like "new_deaths_smoothe"
+- Drop countries that were completely null
   
 **This Phase resulted in a new dataset that has fewer Null values named [“Owid-covid-data-filled.csv”](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/data/Owid-covid-data-filled.csv)**
 
