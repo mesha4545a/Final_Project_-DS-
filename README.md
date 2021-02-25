@@ -4,7 +4,7 @@
 ### The Project:
  - [Forecasting Covid-19 Cases](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/ML_Final/ML_Final.md)
  
- - **This project is  aimed to utilize machine learning on the Covid-19 dataset to predict the future number New cases for the flowing  locations('International, World, Saudi Arabia)  **
+ - **This project is  aimed to utilize machine learning on the Covid-19 dataset to predict the future number New cases for the flowing  locations('International, World, Saudi Arabia)**
  ___
 
 ### The Dataseat:
