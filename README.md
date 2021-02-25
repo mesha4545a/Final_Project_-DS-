@@ -40,7 +40,7 @@
 
 
 #### Phase 2: Exploratory Data Analysis 
-- This phase is done by Jupiter lab and tableau simulations
+- This phase is done by Jupiter lab and tableauat at the same time
   - [EDA part](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/EDA/EDA.md)
   - [Tableau part](https://public.tableau.com/views/EDAVis/Sheet2?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 - **insight:**
