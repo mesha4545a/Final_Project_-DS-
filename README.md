@@ -1,5 +1,5 @@
 # Forecasting Covid-19 Cases
-### _Data Science Bootcamp Final Project_ 
+### _Data Science Boot camp Final Project_ 
 
 ### The Project:
  - [Forecasting Covid-19 Cases](https://github.com/mesha4545a/Final_Project_-DS-/blob/main/ML_Final/ML_Final.md)
